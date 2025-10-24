@@ -24,6 +24,6 @@ public class TiketBioskop {
            loop = sc.nextLine();
         } while (loop.equalsIgnoreCase("ya"));
         System.out.println("Total pendapatan hari ini: Rp. " +totalPendapatan);
-        // sc.close();
+        sc.close();
     }
 }
